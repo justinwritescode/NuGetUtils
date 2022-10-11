@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <EmbedAllSources>true</EmbedAllSources>
+    <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+    <IsPackable>true</IsPackable>
+    <IsNuGetized>true</IsNuGetized>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+     <Authors Condition="'$(Authors)' == ''">@(Author)</Authors> 
+     <Owners Condition="'$(Owners)' == ''">@(Owner)</Owners> 
+  </PropertyGroup>
+</Project>

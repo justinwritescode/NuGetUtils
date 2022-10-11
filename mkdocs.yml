@@ -1,0 +1,10 @@
+site_name: JustinWritesCode NuGetUtils Documentation
+site_description: JustinWritesCode NuGetUtils Documentation
+site_url: https://justinwritescode.com
+site_author: "Justin Chase"
+repo_url: https://github.com/justinwritescode/NuGetUtils
+repo_name: justinwritescode/NuGetUtils
+edit_uri: "tree/main/docs"
+docs_dir: docs
+nav:
+  - README.md
