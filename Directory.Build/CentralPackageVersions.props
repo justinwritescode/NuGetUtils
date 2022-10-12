@@ -3,7 +3,6 @@
     <EnableCentralPackageVersions>true</EnableCentralPackageVersions>
     <EnableGlobalPackageReferences>true</EnableGlobalPackageReferences>
     <EnablePackageVersionOverride>true</EnablePackageVersionOverride>
-    <CustomBeforeCentralPackageVersionsPropsWouldBe>$([MSBuild]::GetPathOfFileAbove("$(MSBuildThisFileDirectory)Directory.CustomBeforeCentralPackageVersions.props"))</CustomBeforeCentralPackageVersionsPropsWouldBe>
     <CustomBeforeCentralPackageVersionsProps Condition="Exists($([MSBuild]::GetPathOfFileAbove('Directory.CustomBeforeCentralPackageVersions.props')))">
       $(CustomBeforeCentralPackageVersionsProps);
       $([MSBuild]::GetPathOfFileAbove("Directory.CustomBeforeCentralPackageVersions.props"))

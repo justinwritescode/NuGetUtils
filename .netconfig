@@ -15,8 +15,8 @@
 	weak
 [file "Directory.Build.props"]
 	url = https://github.com/justinwritescode/common/blob/main/Directory.Build.props
-	sha = 399adeb614cbb54eab325897abc5704c63204633
-	etag = fa4830bfc77708037ae8e6ca0af9a4efc3933eef9fa9d01b6bcc3fa623334ef4
+	sha = 5bf97353583a4476658a1053a728a1732a3c520e
+	etag = 00287b407480eb214a2d5312d794de24d0e96927d3cfa4e5f0d87eb26f6ec70d
 	weak
 [file "Directory.Build.targets"]
 	url = https://github.com/justinwritescode/common/blob/main/Directory.Build.targets
@@ -25,8 +25,8 @@
 	weak
 [file "Directory.Build/CentralPackageVersions.props"]
 	url = https://github.com/justinwritescode/common/blob/main/Directory.Build/CentralPackageVersions.props
-	sha = 2eae9b7be85f32af82c917aab278947f0e3767ef
-	etag = 50b069e5987f005faf67cd3c9340086349db18c5bb386e5d9ddb7eb02cd7bcf7
+	sha = 5bf97353583a4476658a1053a728a1732a3c520e
+	etag = b8530840278f4dc3f099b07b171a76dfcef1b4cee41ba87ab3983e62266a4874
 	weak
 [file "Directory.Build/CodeGeneration.props"]
 	url = https://github.com/justinwritescode/common/blob/main/Directory.Build/CodeGeneration.props
@@ -173,11 +173,6 @@
 	sha = 8d73e4c74a6b8020a1d9324f1e7402232d7dde4e
 	etag = 444863f4ce30ab02392b002821dcbf3242737d70b01e0b67a2e0368f2739e32a
 	weak
-[file "LICENSE.md"]
-	url = https://github.com/justinwritescode/common/blob/main/LICENSE.md
-	sha = 04540640de7bf9eee8684f8f6576734f0e8d23c1
-	etag = c5f814bc24639ccd4fbebf544c1c8282e4355de835597c4b9fa49fe4f22c54ad
-	weak
 [file "Packages/Images.pkgs"]
 	url = https://github.com/justinwritescode/common/blob/main/Packages/Images.pkgs
 	sha = c93a92c933a886cbfcdc037b0ca36af828632322
@@ -225,8 +220,8 @@
 	weak
 [file ".github/funding.yml"]
 	url = https://github.com/justinwritescode/common/blob/main/.github/funding.yml
-	sha = e78c490e8d8a319426a28bc7a47e00524c82c464
-	etag = 769528a50fea9fef14eab1df2822b22b762d767783a920056735e04a66b311e8
+	sha = 5bf97353583a4476658a1053a728a1732a3c520e
+	etag = e4ec451ae2bc00db8040d944eea50788862e98d6c2175b2774f577d68d8e2838
 	weak
 [file ".github/pull_request_template.yaml"]
 	url = https://github.com/justinwritescode/common/blob/main/.github/pull_request_template.yaml
@@ -245,8 +240,8 @@
 	weak
 [file "Directory.Build/Authors.targets"]
 	url = https://github.com/justinwritescode/common/blob/main/Directory.Build/Authors.targets
-	sha = 05cbba9bf65981435ff7c488be028cd360a93532
-	etag = 94a8b4ed75ce10f3318987f5983f5fcc5a554297922bfb1b79f5989aff396a54
+	sha = 5bf97353583a4476658a1053a728a1732a3c520e
+	etag = 1607db3e3a1ce193d30570b26e95e33770d0508e0659abbf2cc9d569e19af95a
 	weak
 [file "Directory.Build/NoTargets.props"]
 	url = https://github.com/justinwritescode/common/blob/main/Directory.Build/NoTargets.props
@@ -255,18 +250,13 @@
 	weak
 [file "Directory.Build/PackageProjectUrl.targets"]
 	url = https://github.com/justinwritescode/common/blob/main/Directory.Build/PackageProjectUrl.targets
-	sha = 399adeb614cbb54eab325897abc5704c63204633
-	etag = 37e1b376adb05635162355c26b881d7d241a2dfefa4c797aace484aede028e11
+	sha = 4e4841c16ca9fa53755a5195ffb602c91b11ec12
+	etag = b8857f5034f9c9e25916c9c05cbf245f1a832329279fe1e8e11a38999219bef3
 	weak
 [file "Directory.Build/Traversal.props"]
 	url = https://github.com/justinwritescode/common/blob/main/Directory.Build/Traversal.props
 	sha = 430588348dd0a82c8d6826ddf1ab06953abd085a
 	etag = 19298dafd9ccd81c115000462ce513bd1c0ef805b703e78c8649202a8c0ef535
-	weak
-[file "Packages-NoGlobalCodeGeneration.props"]
-	url = https://github.com/justinwritescode/common/blob/main/Packages-NoGlobalCodeGeneration.props
-	sha = bb53b480cf108e84abf3e3b54b3f4a4ed75275d6
-	etag = b19ee6efc82ae2068f29e2361caeef00c6c21476170a713975f1dcfa5e0cc1fc
 	weak
 [file "Packages/McMaster.CommandLineUtils.pkgs"]
 	url = https://github.com/justinwritescode/common/blob/main/Packages/McMaster.CommandLineUtils.pkgs
@@ -288,8 +278,8 @@
 	sha = ef34375954d347ec110a497d9036671930ca41ed
 	etag = 031e8883ab6de77b2c2a3f634c13eec6fcb4b102a7e088aeea7cf36830857fb4
 	weak
-[file "mkdocs.yml.template"]
-	url = https://github.com/justinwritescode/common/blob/main/mkdocs.yml.template
-	sha = 6cf59cf85fb2cc57d04679db1b45fa93f0f8e435
-	etag = 38d245f8e7be7dcdd4cdfdb30928c7a3235d7c3c9a79e27f4530d71b9ec51adf
+[file "Packages/NuGet.pkgs"]
+	url = https://github.com/justinwritescode/common/blob/main/Packages/NuGet.pkgs
+	sha = 4e4841c16ca9fa53755a5195ffb602c91b11ec12
+	etag = fe2a4ec5b3ff41662b00163305f8f7e51b396890cef7729769e6c2eae61cfe72
 	weak

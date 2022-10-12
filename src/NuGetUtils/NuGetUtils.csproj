@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>JustinWritesCode.NuGetUtils</PackageId>
+    <AssemblyName>$(PackageId)</AssemblyName>
+    <RootNamespace>$(PackageId)</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+   <PackageReference Include="NuGet.Client" Version="PackageVersion" />
+  </ItemGroup>
+</Project>

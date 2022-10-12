@@ -1,15 +1,14 @@
 <Project>
   <PropertyGroup>
-    <TargetFrameworks>$(TargetFramework)</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Title><!-- TODO: Add this before you release the code! --></Title>
     <Description><!-- TODO: Add this before you release the code! --></Description>
     <PackageTags><!-- TODO: Add these before you release the code! --></PackageTags>
     <Summary><!-- TODO: Add this before you release the code! --></Summary>
-    <RootNamespace>JustinWritesCode.$(MSBuildProjectName)</RootNamespace>
+    <RootNamespace Condition="'$(RootNamespace)' == ''">JustinWritesCode.$(MSBuildProjectName)</RootNamespace>
     <PackageId Condition="'$(PackageId)' == ''">$(MSBuildProjectName)</PackageId>
     <Company Condition="'$(Company)' == ''">JustinWritesCode</Company>
     <Product Condition="'$(Product)' == ''">JustinWritesCode</Product>
-    <Copyright Condition="'$(Copyright)' == ''">© $([System.DateTime]::Now.Year) Justin Chase, All Rights Reserved</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageOutputPath>artifacts</PackageOutputPath>
