@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <IncludeInSolutionFile>false</IncludeInSolutionFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="src/NuGetUtils/NuGetUtils.csproj" />
+    <ProjectReference Include="src/NuGet.Client/src/NuGet.Core/NuGet.Common/NuGet.Common.csproj" />
+    <ProjectReference Include="src/NuGet.Client/src/NuGet.Core/NuGet.Configuration/NuGet.Configuration.csproj" />
+  </ItemGroup>
+</Project>
