@@ -1,10 +1,22 @@
-<Project>
+<!--
+ NuGetUtils.slnproj
+ 
+   Created: 2022-10-15-10:49:30
+   Modified: 2022-11-01-05:35:31
+ 
+   Author: Justin Chase <justin@justinwritescode.com>
+   
+   Copyright © 2022 Justin Chase, All Rights Reserved
+      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project Sdk="Microsoft.Build.Traversal">
   <PropertyGroup>
     <IncludeInSolutionFile>false</IncludeInSolutionFile>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="src/NuGetUtils/NuGetUtils.csproj" />
-    <ProjectReference Include="src/NuGet.Client/src/NuGet.Core/NuGet.Common/NuGet.Common.csproj" />
-    <ProjectReference Include="src/NuGet.Client/src/NuGet.Core/NuGet.Configuration/NuGet.Configuration.csproj" />
+    <ProjectReference Include="src/NuGetUtils.slnproj" />
+    <ProjectReference Include="lib/NuGet.Client/src/NuGet.Core/NuGet.Common/NuGet.Common.csproj" />
+    <ProjectReference Include="lib/NuGet.Client/src/NuGet.Core/NuGet.Configuration/NuGet.Configuration.csproj" />
   </ItemGroup>
 </Project>

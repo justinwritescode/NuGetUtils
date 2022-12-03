@@ -33,24 +33,4 @@
     <PackageReference Include="NuGet.Commands" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Directory.Build.props">
-      <DefaultPackFolder></DefaultPackFolder>
-      <BuildAction></BuildAction>
-    </None>
-    <None Update="Directory %28copy%29.Build.props">
-      <DefaultPackFolder></DefaultPackFolder>
-      <BuildAction></BuildAction>
-    </None>
-  </ItemGroup>
-  <UsingTask TaskName="NuGetConfig" AssemblyFile="$(TargetPath)" />
-  <Target Name="ShowNuGetConfig" AfterTargets="Build">
-    <NuGetConfig>
-      <Output TaskParameter="PackageSources" ItemName="PackageSource" />
-      <Output TaskParameter="ConfigFiles" ItemName="ConfigFile" />
-    </NuGetConfig>
-    <Message Text="PackageSources: @(PackageSource)" Importance="High" />
-    <Message Text="PackageSources: @(ConfigFile)" Importance="High" />
-  </Target>
 </Project>

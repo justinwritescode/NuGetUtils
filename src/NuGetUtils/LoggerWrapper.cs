@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 using NuGetLogger = global::NuGet.Common.ILogger;
 using MicrosoftLogger = Microsoft.Extensions.Logging.ILogger;
 
-namespace JustinWritesCode.NuGetUtils
+namespace NuGetUtils
 {
     public class LoggerWrapper : NuGetLogger, MicrosoftLogger
     {

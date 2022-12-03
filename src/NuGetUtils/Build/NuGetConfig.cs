@@ -1,8 +1,8 @@
 namespace JustinWritesCode.NuGetUtils;
 using Microsoft.Build.Framework;
 using Microsoft.Build.Utilities;
-using global::JustinWritesCode.NuGet.Configuration;
-using static global::JustinWritesCode.NuGet.Configuration.ConfigurationConstants;
+using global::NuGet.Configuration;
+using static global::NuGet.Configuration.ConfigurationConstants;
 
 /// <summary>
 /// Gets the NuGet configuration file
@@ -23,11 +23,11 @@ public class NuGetConfig : MSBTask
     {
         ConfigFiles = Settings.OrderedSettingsFileNames.Select(x => new TaskItem(x)).ToArray();
 
-        var nugetConfig = new global::JustinWritesCode.NuGet.Configuration.Settings(Path.GetDirectoryName(this.BuildEngine.ProjectFileOfTaskNode));
-        Console.WriteLine($"GetConfigFilePaths: {string.Join(", ", nugetConfig.GetConfigFilePaths())}");
-        var packageSources = nugetConfig.GetSection(ConfigurationConstants.PackageSources);
-        var packageSourceItems = packageSources.Items.OfType<AddItem>();
-        PackageSources = packageSourceItems.Select(x => new TaskItem(x.Key, new Dictionary<string, string> { { ValueAttribute, x.Value } })).ToArray();
+        // var nugetConfig = new global::JustinWritesCode.NuGet.Configuration.Settings(Path.GetDirectoryName(this.BuildEngine.ProjectFileOfTaskNode));
+        // Console.WriteLine($"GetConfigFilePaths: {string.Join(", ", nugetConfig.GetConfigFilePaths())}");
+        // var packageSources = nugetConfig.GetSection(ConfigurationConstants.PackageSources);
+        // var packageSourceItems = packageSources.Items.OfType<AddItem>();
+        // PackageSources = packageSourceItems.Select(x => new TaskItem(x.Key, new Dictionary<string, string> { { ValueAttribute, x.Value } })).ToArray();
         return true;
     }
 }

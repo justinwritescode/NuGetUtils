@@ -1,10 +1,13 @@
-<Project Sdk="Microsoft.Build.NoTargets">
-    <PropertyGroup>
-      <EnableCentralPackageVersions>false</EnableCentralPackageVersions>
-      <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-      <TargetFramework>netstandard1.0</TargetFramework>
-    </PropertyGroup>
-    <ItemGroup>
-     <PackageReference Include="JustinWritesCode.Common.RestoreCommonFiles" Version="0.0.1-Local" />
-    </ItemGroup>
-</Project>
+<!--
+ * RestoreCommonFiles.restoreproj
+ * 
+ *   Created: 2022-10-15-09:51:19
+ *   Modified: 2022-11-06-12:04:42
+ * 
+ *   Author: Justin Chase <justin@justinwritescode.com>
+ *   
+ *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project Sdk="RestoreProjSdk" />
