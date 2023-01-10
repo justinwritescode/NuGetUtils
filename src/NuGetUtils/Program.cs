@@ -6,7 +6,7 @@
  *
  *   Author: Justin Chase <justin@justinwritescode.com>
  *
- *   Copyright © 2022 Justin Chase, All Rights Reserved
+ *   Copyright © 2022-2023 Justin Chase, All Rights Reserved
  *      License: MIT (https://opensource.org/licenses/MIT)
  */
 
@@ -19,6 +19,5 @@ public static class TestNuGetUtils
 {
     public static void Main(string[] args)
     {
-        var nugetConfig = NuGetConfiguration.GetNuGetConfiguration(Directory.GetCurrentDirectory());
     }
 }

@@ -1,0 +1,35 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGetUtils", "NuGetUtils.csproj", "{9B701659-FEE7-4954-BE92-05168457CA88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED80851A-16B1-4055-B07C-D60727E23FBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Local|Any CPU = Local|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Testing|Any CPU = Testing|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Local|Any CPU.Build.0 = Local|Any CPU
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Testing|Any CPU.ActiveCfg = Testing|Any CPU
+		{9B701659-FEE7-4954-BE92-05168457CA88}.Testing|Any CPU.Build.0 = Testing|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B701659-FEE7-4954-BE92-05168457CA88} = {ED80851A-16B1-4055-B07C-D60727E23FBD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2FE95BA-2648-4E66-9508-0DE55690E162}
+	EndGlobalSection
+EndGlobal

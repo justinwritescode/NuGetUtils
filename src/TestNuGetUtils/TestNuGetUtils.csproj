@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <OutputPath>bin/</OutputPath>
+    <ResolveNuGetPackages>true</ResolveNuGetPackages>
+    <GenerateFullPaths>true</GenerateFullPaths>
+    <IsNuGetized>false</IsNuGetized>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../NuGetUtils/NuGetUtils.csproj" />
+    <PackageReference Include="Microsoft.Build.Utilities.Core" VersionOverride="[17.4.0,)" />
+    <PackageReference Include="Microsoft.Build" VersionOverride="[17.4.0,)" />
+    <PackageReference Include="Microsoft.Build.Framework" VersionOverride="[17.4.0,)" />
+    <PackageReference Include="Microsoft.Extensions.Logging" />
+    <!-- <PackageReference Include="System.Text.Json" /> -->
+    <PackageReference Include="System.Text.RegularExpressions" />
+    <PackageReference Include="System.Text.RegularExpressions.Usings" />
+    <!-- <PackageReference Include="NuGet.Common" />
+    <PackageReference Include="NuGet.Commands" />
+    <PackageReference Include="NuGet.Configuration" /> -->
+    <ProjectReference Include="../../lib/NuGet.Client/src/NuGet.Core/NuGet.Common/NuGet.Common.csproj" />
+    <ProjectReference Include="../../lib/NuGet.Client/src/NuGet.Core/NuGet.Commands/NuGet.Commands.csproj" />
+    <ProjectReference Include="../../lib/NuGet.Client/src/NuGet.Core/NuGet.Configuration/NuGet.Configuration.csproj" />
+    <!-- <PackageReference Include="NuGet.Common" /> -->
+    <!-- <PackageReference Include="NuGet.Commands" /> -->
+    <!-- <PackageReference Include="NuGet.Configuration" /> -->
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+</Project>

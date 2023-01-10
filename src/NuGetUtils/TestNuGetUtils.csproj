@@ -6,14 +6,14 @@
  
    Author: Justin Chase <justin@justinwritescode.com>
    
-   Copyright © 2022 Justin Chase, All Rights Reserved
+   Copyright © 2022-2023 Justin Chase, All Rights Reserved
       License: MIT (https://opensource.org/licenses/MIT)
 -->
 
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>JustinWritesCode.NuGetUtils</PackageId>
+    <TargetFramework>net6.0</TargetFramework>
+    <PackageId>JustinWritesCode.TestNuGetUtils</PackageId>
     <AssemblyName>$(PackageId)</AssemblyName>
     <RootNamespace>$(PackageId)</RootNamespace>
   </PropertyGroup>

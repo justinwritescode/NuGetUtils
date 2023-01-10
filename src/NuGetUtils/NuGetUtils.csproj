@@ -6,7 +6,7 @@
  
    Author: Justin Chase <justin@justinwritescode.com>
    
-   Copyright © 2022 Justin Chase, All Rights Reserved
+   Copyright © 2022-2023 Justin Chase, All Rights Reserved
       License: MIT (https://opensource.org/licenses/MIT)
 -->
 
@@ -31,6 +31,7 @@
     <PackageReference Include="System.Text.RegularExpressions.Usings" />
     <PackageReference Include="NuGet.Common" />
     <PackageReference Include="NuGet.Commands" />
+    <PackageReference Include="NuGet.Configuration" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
   </ItemGroup>
 
@@ -45,12 +46,12 @@
     </None>
   </ItemGroup>
   <UsingTask TaskName="NuGetConfig" AssemblyFile="$(TargetPath)" />
-  <Target Name="ShowNuGetConfig" AfterTargets="Build">
+  <!-- <Target Name="ShowNuGetConfig" AfterTargets="Build">
     <NuGetConfig>
       <Output TaskParameter="PackageSources" ItemName="PackageSource" />
       <Output TaskParameter="ConfigFiles" ItemName="ConfigFile" />
     </NuGetConfig>
     <Message Text="PackageSources: @(PackageSource)" Importance="High" />
     <Message Text="PackageSources: @(ConfigFile)" Importance="High" />
-  </Target>
+  </Target> -->
 </Project>

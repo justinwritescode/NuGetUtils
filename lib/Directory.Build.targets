@@ -1,8 +1,8 @@
 <!--
- * RestoreCommonFiles.restoreproj
+ * Directory.Build.props
  * 
- *   Created: 2022-10-15-09:51:19
- *   Modified: 2022-11-06-12:04:42
+ *   Created: 2022-12-13-10:09:18
+ *   Modified: 2022-12-13-10:09:18
  * 
  *   Author: Justin Chase <justin@justinwritescode.com>
  *   
@@ -10,4 +10,4 @@
  *      License: MIT (https://opensource.org/licenses/MIT)
 -->
 
-<Project Sdk="RestoreProjSdk" />
+<Project />

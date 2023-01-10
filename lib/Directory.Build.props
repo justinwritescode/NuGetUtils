@@ -1,0 +1,22 @@
+<!--
+ * Directory.Build.props
+ * 
+ *   Created: 2022-12-13-10:09:18
+ *   Modified: 2022-12-13-10:09:18
+ * 
+ *   Author: Justin Chase <justin@justinwritescode.com>
+ *   
+ *   Copyright © 2022-2023 Justin Chase, All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project>
+  <PropertyGroup>
+    <IsNuGetized>false</IsNuGetized>
+    <IsPackable>false</IsPackable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- <PackageReference Include="NuGetizer" Version="[0.9.1,)" /> -->
+  </ItemGroup>
+</Project>
